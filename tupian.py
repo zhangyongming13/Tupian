@@ -126,8 +126,8 @@ def save_to_database_local(tiezi_name, tiezi_link, tupian_data, tupian_link):  #
 
 
 if __name__ == '__main__':
-    url = ''
-    Referer = ''
+    url = 'https://www.287zh.com/html/news/69/'
+    Referer = 'https://www.287zh.com/html/news/7/'
     zhang = url
     url = get_tiezi_data(url, Referer)
     while url != 'No':
